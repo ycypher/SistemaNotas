@@ -43,5 +43,5 @@ O sistema permite cadastrar alunos em uma turma, lançar notas bimestrais, calcu
 
 ## Aluno
 
-- **Nome:**_ Victor Hugo _
-- **Turma:** 13A — 2º Módulo
+- **Nome:** _Victor Hugo_
+- **Turma:** Informática 2° periodo
