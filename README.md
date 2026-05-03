@@ -1,18 +1,47 @@
-## Getting Started
+# SistemaFuncionarios
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Sistema de cadastro e gerenciamento de funcionários desenvolvido em Java.
 
-## Folder Structure
+## Descrição
 
-The workspace contains two folders by default, where:
+O sistema permite cadastrar funcionários em um departamento, aplicar reajustes salariais, registrar demissões e calcular a folha salarial dos funcionários ativos.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Tecnologia utilizada
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Java 
+- IDE:VScode
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Como executar
 
-## Dependency Management
+1. Certifique-se de ter o JDK instalado. Para verificar, abra o terminal e execute:
+   ```
+   java -version
+   ```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+2. Navegue até a pasta `src` do projeto:
+   ```
+   cd SistemaFuncionarios/src
+   ```
+
+3. Compile todos os arquivos `.java`:
+   ```
+   javac *.java
+   ```
+
+4. Execute a classe principal:
+   ```
+   java TesteSistema
+   ```
+
+## Classes do projeto
+
+| Classe | Responsabilidade |
+|---|---|
+| `Funcionario` | Representa um funcionário com seus dados pessoais e profissionais. Possui métodos para alterar dados, aplicar reajuste, demitir e exibir informações. |
+| `Departamento` | Agrupa funcionários em um setor. Gerencia a adição, listagem e cálculo da folha salarial. |
+| `TesteSistema` | Classe principal com o método `main`. Executa o roteiro de testes simulando o uso real do sistema. |
+
+## Aluno
+
+- **Nome:** _(Victor Hugo)_
+- **Turma:** Informática 2° periodo
