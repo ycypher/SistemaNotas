@@ -1,15 +1,15 @@
-# SistemaFuncionarios
+# SistemaNotas
 
-Sistema de cadastro e gerenciamento de funcionários desenvolvido em Java.
+Sistema de controle de notas escolares desenvolvido em Java.
 
 ## Descrição
 
-O sistema permite cadastrar funcionários em um departamento, aplicar reajustes salariais, registrar demissões e calcular a folha salarial dos funcionários ativos.
+O sistema permite cadastrar alunos em uma turma, lançar notas bimestrais, calcular médias, verificar situação (aprovado, recuperação ou reprovado) e emitir boletins pelo console. Conta com um menu interativo para o usuário utilizar o sistema.
 
 ## Tecnologia utilizada
 
-- Java 
-- IDE:VScode
+- Java 21
+- IDE: VScode
 
 ## Como executar
 
@@ -20,7 +20,7 @@ O sistema permite cadastrar funcionários em um departamento, aplicar reajustes 
 
 2. Navegue até a pasta `src` do projeto:
    ```
-   cd SistemaFuncionarios/src
+   cd SistemaNotas/src
    ```
 
 3. Compile todos os arquivos `.java`:
@@ -30,18 +30,18 @@ O sistema permite cadastrar funcionários em um departamento, aplicar reajustes 
 
 4. Execute a classe principal:
    ```
-   java TesteSistema
+   java TesteNotas
    ```
 
 ## Classes do projeto
 
 | Classe | Responsabilidade |
 |---|---|
-| `Funcionario` | Representa um funcionário com seus dados pessoais e profissionais. Possui métodos para alterar dados, aplicar reajuste, demitir e exibir informações. |
-| `Departamento` | Agrupa funcionários em um setor. Gerencia a adição, listagem e cálculo da folha salarial. |
-| `TesteSistema` | Classe principal com o método `main`. Executa o roteiro de testes simulando o uso real do sistema. |
+| `Aluno` | Representa um aluno com nome, matrícula e três notas bimestrais. Calcula a média, determina a situação e exibe o boletim. |
+| `GerenciadorTurma` | Gerencia uma turma de até 4 alunos. Permite cadastrar alunos, emitir boletins, contar aprovados e encontrar o aluno com maior média. |
+| `TesteNotas` | Classe principal com o método `main`. Realiza a configuração inicial da turma e apresenta o menu interativo ao usuário. |
 
 ## Aluno
 
-- **Nome:** _Victor Hugo_
-- **Turma:** Informática 2° periodo
+- **Nome:**_ Victor Hugo _
+- **Turma:** 13A — 2º Módulo
