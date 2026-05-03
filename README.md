@@ -43,5 +43,5 @@ O sistema permite cadastrar funcionários em um departamento, aplicar reajustes 
 
 ## Aluno
 
-- **Nome:** _(Victor Hugo)_
+- **Nome:** _Victor Hugo_
 - **Turma:** Informática 2° periodo
